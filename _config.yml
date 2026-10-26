@@ -1,0 +1,12 @@
+# Site settings (written by the Outpost station on first setup)
+title: "The Outpost Factory"
+description: "Cozy, original gifts for people who love stories."
+shop_url: "https://www.etsy.com/shop/TheOutpostFactory"
+url: "https://theoutpostfactory.github.io"
+baseurl: ""
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
