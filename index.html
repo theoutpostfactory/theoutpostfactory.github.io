@@ -1,0 +1,19 @@
+---
+layout: default
+title: Cozy gift guides for readers
+---
+<section class="hero">
+  <h1>Small comforts for people who love stories</h1>
+  <p>Gift guides, cozy reading ideas and new designs from The Outpost Factory.</p>
+  <a class="btn" href="{{ site.shop_url }}" rel="noopener">Visit our Etsy shop</a>
+</section>
+<section class="grid">
+  {% for post in site.posts %}
+  <a class="card" href="{{ post.url | relative_url }}">
+    {% if post.image %}<img src="{{ post.image }}" alt="" loading="lazy">{% endif %}
+    <div><span class="date">{{ post.date | date: "%b %-d, %Y" }}</span><h2>{{ post.title }}</h2><p>{{ post.description }}</p></div>
+  </a>
+  {% else %}
+  <p>New gift guides are on the way.</p>
+  {% endfor %}
+</section>
