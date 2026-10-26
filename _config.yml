@@ -2,7 +2,7 @@
 title: "The Outpost Factory"
 description: "Cozy, original gifts for people who love stories."
 shop_url: "https://www.etsy.com/shop/TheOutpostFactory"
-pinterest_verify: {{PINVERIFY}}
+pinterest_verify: "e4042f6b73fdd31689445fb375f389be"
 url: "https://theoutpostfactory.github.io"
 baseurl: ""
 permalink: /:year/:month/:day/:title.html
